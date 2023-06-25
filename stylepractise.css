@@ -1,0 +1,179 @@
+.container{
+    display: flex;
+width: 1024px;
+height: 400px;
+padding: 20px;
+justify-content: center;
+align-items: center;
+gap: 30px;
+background: #FFF;
+}
+.pricelist{
+    display: flex;
+padding: 15px;
+flex-direction: column;
+align-items: center;
+gap: 19px;
+align-self: stretch;
+border: 1px solid #828282;
+}
+.fruit{
+    color: #000;
+/* nab */
+font-size: 32px;
+font-family: Inter;
+/* inter from google fonts */
+font-weight: 600;
+}
+.frame3{
+    display: flex;
+flex-direction: column;
+align-items: flex-end;
+gap: 5px;
+align-self: stretch;
+}
+.pricelisting{
+    display: flex;
+justify-content: flex-end;
+align-items: baseline;
+gap: 20px;
+}
+
+
+.product{
+    color: var(--label-text, #949494);
+font-size: 24px;
+font-family: Inter;
+}
+.price{
+    display: flex;
+width: 115px;
+flex-direction: column;
+color: var(--name-text, #636363);
+text-align: right;
+font-size: 36px;
+font-family: Inter;
+}
+.dealalerts{
+    display: flex;
+height: 346px;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 30px;
+flex: 1 0 0;
+}
+.frame11{
+    display: flex;
+padding: 10px 0px;
+flex-direction: column;
+align-items: flex-start;
+gap: 14px;
+align-self: stretch;
+}
+.frame15{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 11px;
+align-self: stretch;
+}
+.frame17{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    align-self: stretch; 
+}
+
+
+.dealalerts2{
+    color: #000;
+
+/* nab */
+font-size: 32px;
+font-family: Inter;
+font-weight: 600;
+}
+.email{
+    color: var(--label-text, #949494);
+    
+    /* Label Text */
+    font-size: 12px;
+    font-family: Inter;
+    }
+   
+ .rectangle{
+        height: 40px;
+    align-self: stretch;
+    border: 1px solid #ABABAB;
+    }
+
+
+.button1{
+    display: flex;
+    height: 65px;
+    padding: 10px 30px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    align-self: stretch;
+    border-radius: 8px;
+    background: var(--button-affirm, #32C1FF);
+   
+}
+.inner-button1{
+    color: var(--button-text, #FFF);
+    font-size: 24px;
+    font-family: Inter;
+    font-weight: 700;
+}
+.frame16{
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border: 1px solid #E2E2E2;
+}
+
+.text
+{
+    color: #000;
+font-size: 25px;
+font-family: Inter;
+font-weight: 700;
+}
+.button2{
+    display: flex;
+    height: 64px;
+    padding: 10px 30px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 8px;
+background: var(--button-affirm, #32C1FF);
+
+}
+.text2{
+    color: var(--button-text, #FFF);
+    font-size: 24px;
+    font-family: Inter;
+    font-weight: 700;
+}
+.button3{
+    display: flex;
+height: 64px;
+padding: 10px 30px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+border-radius: 8px;
+background: var(--button-affirm, #32C1FF);
+
+}
+.text3{
+    color: var(--button-text, #FFF);
+    font-size: 24px;
+    font-family: Inter;
+    font-weight: 700;
+}
